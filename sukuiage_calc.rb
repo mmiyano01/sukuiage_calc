@@ -25,7 +25,6 @@ class SukuiageCalc
 		end_time: "22:00"
 	}
 
-
 	def initialize
 	end	
 
@@ -72,9 +71,7 @@ class SukuiageCalc
 	
 	def finished_work_after_break?(br, end_time)
 		"#{Date.today} #{br[:end_time]}".to_time <= "#{Date.today} #{end_time}".to_time 
-	end	
-
-
+	end
 end	
 
 class Main
@@ -86,11 +83,10 @@ class Main
 		sukuiage = SukuiageCalc.new
 
 		while true do
-		
 			print "業務開始時間: "
 			start_time = gets
 			print "業務終了時間: "
-	  	end_time = gets
+			end_time = gets
 			puts "---------------------"
 			print "勤務時間: "
 			puts sukuiage.calc(start_time,end_time)

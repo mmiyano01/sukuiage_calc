@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98cc9527-d4a4-4b62-90c4-3a60a87d997e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sukuiage_calc.rb" afterPath="$PROJECT_DIR$/sukuiage_calc.rb" />
-    </list>
+    <list default="true" id="98cc9527-d4a4-4b62-90c4-3a60a87d997e" name="Default" comment="" />
     <ignored path="sukuiage_calc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -216,15 +214,15 @@
       <created>1530086487905</created>
       <option name="number" value="Default" />
       <updated>1530086487905</updated>
-      <workItem from="1530086489447" duration="55000" />
+      <workItem from="1530086489447" duration="238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55000" />
+    <option name="totallyTimeSpent" value="238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

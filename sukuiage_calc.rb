@@ -42,7 +42,6 @@ class SukuiageCalc
 
 		deduction_time = [SECOND_BREAK, FIRST_BREAK].inject(0) do |z,br|
 			if finished_work_after_break?(br, end_time)
-				puts 'yes'
 				z += (("#{Date.today} #{br[:end_time]}".to_time - "#{Date.today} #{br[:start_time]}".to_time) / 3600)
       end
 			z
